@@ -1,0 +1,9 @@
+n=int(input())
+a=n%10
+b=n//10
+c=b%10
+d=b//10
+e=d%10
+f=d//10
+g=max(f,e,c,a)
+print(g)
