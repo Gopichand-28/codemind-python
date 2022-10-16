@@ -1,0 +1,11 @@
+t=input()
+b=t.split(':')
+h=int(b[0])
+m=int(b[-1])
+a=h*30
+c=m*6
+f=m*0.5
+g=a+f
+w=abs(g-c)
+r=min(360-w,w)
+print(r)
