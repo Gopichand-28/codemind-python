@@ -8,9 +8,10 @@ def spy_number_check(num):
         d=d*s
         num=num//10
     if y==d:
-        print('Spy Number')
+        return True
     else:
-        print('Not Spy Number')
-num=a
-spy_number_check(num)
-    
+        return False
+if (spy_number_check(a)):
+    print('Spy Number')
+else:
+    print('Not Spy Number')
